@@ -1,0 +1,82 @@
+/* Reference layout: white information sheet, full QR rows and three-column metrics. */
+.app-shell .alert-detail-inline { background:#fff; color:#111; box-shadow:inset 5px 0 10px -7px #ff1919,inset -7px 0 12px -7px #ff1919; }
+.app-shell .alert-detail-inline .alert-dialog-header { display:flex; padding:8px; border:0; background:#fff; }
+.app-shell .alert-detail-inline .alert-dialog-body { padding:0; }
+.app-shell .alert-detail-inline .alert-dialog-header h2 { font-size:24px !important; line-height:32px; color:#111; font-weight:500; }
+.app-shell .alert-detail-inline .alert-dialog-header button { border:0; color:#666; font-size:32px !important; background:transparent; }
+.app-shell .alert-detail-inline .alert-identity { display:flex; flex-wrap:nowrap; align-items:center; gap:12px; padding:8px; margin:0; }
+.app-shell .alert-detail-inline .alert-drone-image { display:flex; flex:0 0 80px; height:88px; background:#fff; border-radius:0; color:#526472; }
+.app-shell .alert-detail-inline .alert-drone-image svg { width:64px; height:48px; }
+.app-shell .alert-detail-inline .alert-source { border-radius:0 0 8px 0; background:#00a5ef; color:#fff; font-size:16px !important; line-height:24px; }
+.app-shell .alert-detail-inline .alert-identity-copy { flex:1; min-width:0; }
+.app-shell .alert-detail-inline .alert-identity-copy h3 { font-size:20px !important; line-height:28px; font-weight:600; color:#111; }
+.app-shell .alert-detail-inline .alert-identity-copy p { font-size:16px !important; line-height:24px; color:#446888; margin:4px 0; }
+.app-shell .alert-detail-inline .alert-identity-copy > span { font-size:16px !important; line-height:24px; color:#111; }
+.app-shell .alert-detail-inline .alert-signal { display:flex; flex:none; align-self:flex-end; margin:0 0 8px; height:24px; gap:2px; }
+.app-shell .alert-detail-inline .alert-signal i { width:3px; background:#ccc; }.app-shell .alert-detail-inline .alert-signal i.on { background:#555; }
+.app-shell .alert-detail-inline .alert-location-list { gap:0; }
+.app-shell .alert-detail-inline .alert-location { display:grid; grid-template-columns:24px minmax(0,1fr) 52px 48px 64px; gap:4px; align-items:center; padding:12px 8px; border:0; border-top:1px solid #e5e7eb; border-radius:0; background:#fff; }
+.app-shell .alert-detail-inline .alert-location-icon { display:block; grid-column:1; grid-row:1; color:#008dff; font-size:28px; }
+.app-shell .alert-detail-inline .alert-location-copy { display:block; grid-column:2; grid-row:1; }
+.app-shell .alert-detail-inline .alert-location-copy h4 { display:none; }
+.app-shell .alert-detail-inline .alert-location-copy strong { color:#333; font-size:16px !important; line-height:24px; font-weight:400; }
+.app-shell .alert-detail-inline .alert-location-distance { grid-column:3; grid-row:1; display:flex; flex-direction:column; gap:0; color:#333; }
+.app-shell .alert-detail-inline .alert-location-distance :is(span,strong) { font-size:16px !important; line-height:24px; font-weight:400; white-space:nowrap; }
+.app-shell .alert-detail-inline button.alert-qr { grid-column:4; grid-row:1; width:48px; height:48px; min-height:48px; padding:0; background:#fff; border:0; border-radius:0; }
+.app-shell .alert-detail-inline button.alert-route { grid-column:5; grid-row:1; padding:4px; height:40px; min-height:40px; background:#008cff; border:0; color:white; font-size:16px !important; line-height:24px; }
+.app-shell .alert-detail-inline .alert-metrics { margin:0; padding:12px 8px; border-top:1px solid #e5e7eb; }
+.app-shell .alert-detail-inline .alert-metrics h3 { color:#444; font-size:18px !important; line-height:26px; font-weight:400; margin:0 0 8px; }
+.app-shell .alert-detail-inline .alert-metrics dl { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px 8px; margin:0; }
+.app-shell .alert-detail-inline .alert-metrics dt { color:#444; font-size:16px !important; line-height:24px; }
+.app-shell .alert-detail-inline .alert-metrics dd { color:#187bd3; font-size:18px !important; line-height:26px; margin:4px 0 0; font-weight:500; }
+.app-shell .alert-detail-inline .alert-trust { margin:0; padding:16px 24px 8px; border-top:1px solid #e5e7eb; align-items:flex-end; }
+.app-shell .alert-detail-inline .alert-trust > div { display:flex; flex-direction:column; gap:8px; color:#444; }
+.app-shell .alert-detail-inline .alert-trust span { display:grid; place-items:center; width:48px; height:48px; background:#e5e7eb; border-radius:50%; color:#6b7280; font-size:28px !important; }
+.app-shell .alert-detail-inline .alert-trust strong,.app-shell .alert-detail-inline .alert-trust time { font-size:16px !important; line-height:24px; color:#555; }
+.app-shell .alert-detail-inline .alert-location-expanded { background:#f8fafc; color:#333; margin:8px; border-color:#dbe3ec; }
+.app-shell .alert-detail-inline .alert-location-expanded :is(h4,p,strong,span) { color:#444; font-size:16px !important; line-height:24px; }
+@media(max-width:800px) {
+ .app-shell .alert-detail-inline .alert-dialog-header { padding:8px 16px; }
+ .app-shell .alert-detail-inline .alert-dialog-header h2 { font-size:28px !important; line-height:38px; }
+ .app-shell .alert-detail-inline .alert-identity { padding:8px 16px; gap:16px; }
+ .app-shell .alert-detail-inline .alert-drone-image { flex-basis:112px; height:104px; }
+ .app-shell .alert-detail-inline .alert-identity-copy h3 { font-size:28px !important; line-height:38px; }
+ .app-shell .alert-detail-inline .alert-identity-copy p,.app-shell .alert-detail-inline .alert-identity-copy > span { font-size:20px !important; line-height:28px; }
+ .app-shell .alert-detail-inline .alert-location { grid-template-columns:32px minmax(0,1fr) 64px 72px 88px; padding:16px; gap:8px; }
+ .app-shell .alert-detail-inline .alert-location-copy strong { font-size:24px !important; line-height:32px; }
+ .app-shell .alert-detail-inline .alert-location-distance :is(span,strong) { font-size:20px !important; line-height:28px; }
+ .app-shell .alert-detail-inline button.alert-qr { width:72px; height:72px; }
+ .app-shell .alert-detail-inline button.alert-route { height:48px; min-height:48px; font-size:20px !important; line-height:28px; }
+ .app-shell .alert-detail-inline .alert-metrics { padding:16px; }
+ .app-shell .alert-detail-inline .alert-metrics dl { gap:16px; }
+ .app-shell .alert-detail-inline .alert-metrics dt { font-size:20px !important; line-height:28px; }
+ .app-shell .alert-detail-inline .alert-metrics dd { font-size:24px !important; line-height:32px; }
+ .app-shell .alert-detail-inline .alert-trust strong,.app-shell .alert-detail-inline .alert-trust time { font-size:20px !important; line-height:28px; }
+}
+/* Dark theme for the expanded alert, with collapse handled by its parent card. */
+.app-shell .alert-detail-inline { background:#142335; color:#e2edf5; box-shadow:none; }
+.app-shell .alert-detail-inline .alert-identity { padding-top:16px; padding-bottom:16px; }
+.app-shell .alert-detail-inline .alert-drone-image { background:#142335; color:#94b4c9; }
+.app-shell .alert-detail-inline .alert-identity-copy h3,
+.app-shell .alert-detail-inline .alert-identity-copy > span { color:#e2edf5; }
+.app-shell .alert-detail-inline .alert-identity-copy p { color:#94a3b8; }
+.app-shell .alert-detail-inline .alert-signal i { background:#33485b; }
+.app-shell .alert-detail-inline .alert-signal i.on { background:#7cbbe7; }
+.app-shell .alert-detail-inline .alert-location { background:#102030; border-color:#2b4053; }
+.app-shell .alert-detail-inline .alert-location-copy strong,
+.app-shell .alert-detail-inline .alert-location-distance { color:#dce8f2; }
+.app-shell .alert-detail-inline .alert-metrics { border-color:#2b4053; }
+.app-shell .alert-detail-inline .alert-metrics h3 { color:#dce8f2; }
+.app-shell .alert-detail-inline .alert-metrics dt { color:#94a3b8; }
+.app-shell .alert-detail-inline .alert-metrics dd { color:#69b5ff; }
+.app-shell .alert-detail-inline .alert-trust { border-color:#2b4053; }
+.app-shell .alert-detail-inline .alert-trust strong,
+.app-shell .alert-detail-inline .alert-trust time { color:#94a3b8; }
+.app-shell .alert-detail-inline .alert-trust span { background:#2b4053; color:#b4c6d5; }
+.app-shell .alert-detail-inline .alert-trust .trusted strong,
+.app-shell .alert-detail-inline .alert-trust .trusted span { color:#34d399; }
+.app-shell .alert-detail-inline .alert-location-expanded { background:#0f1c2b; border-color:#35536e; }
+.app-shell .alert-detail-inline .alert-location-expanded :is(h4,p,strong,span) { color:#cbd5e1; }
+/* Original transparent drone asset, above the recognition source badge. */
+.target-card-main .drone-thumb .alert-drone-thumbnail { position:relative; z-index:1; display:block; width:calc(100% - 8px); height:calc(100% - 28px); object-fit:contain; align-self:start; margin-top:4px; }
+.target-card-main .drone-thumb::before,.target-card-main .drone-thumb::after { display:none; }

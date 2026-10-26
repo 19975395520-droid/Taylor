@@ -1,0 +1,131 @@
+/* 720 × 1600 CSS-pixel baseline. Preview scale does not change these values. */
+@media (max-width:800px) {
+  :root { --hh-bg:#0f172a; --hh-panel:#1e293b; --hh-muted:#94a3b8; --hh-blue:#3b82f6; --hh-line:#475569; }
+  body, .app-shell, .main-shell { background:var(--hh-bg); color:#fff; font-family:"Noto Sans SC",Roboto,"Source Han Sans SC","Microsoft YaHei",sans-serif; }
+  .app-shell.app-shell :is(span,strong,small,p,em,time,label,button,input,select,textarea,b,dt,dd,code,h3) { font-family:inherit; font-size:24px !important; line-height:32px; font-weight:400; }
+  .app-shell.app-shell :is(small,time,.serial,.target-meta,.source-tag,.mode-tag,.threat,.uom,.map-place,.track-dot,.crumb,.unit,.version) { font-size:16px !important; line-height:22px; }
+  .app-shell.app-shell :is(p,.setting-item small,.setting-item > div > span,.stat-card > div > span,.stat-card p,.whitelist-summary p span,.whitelist-toolbar > div span,.whitelist-table-row > span:nth-child(4),.target-meta span,.serial,.analytics-panel-title span,.workspace-heading > div > span,.settings-nav-head small,.event-detail-grid span,.config-table small,.coordinate-choice-list small,.about-grid span,.inline-detail-grid span,.inline-operator small,.inline-trust-state time) { font-size:20px !important; line-height:28px; color:var(--hh-muted); }
+  .app-shell.app-shell :is(.panel-title strong,.settings-sections h3,.settings-drilldown h3,.about-actions h3,.control-panel-title,.analytics-panel-title strong,.settings-nav-head strong,.upgrade-card-head strong) { font-size:28px !important; line-height:38px; font-weight:500; color:#fff; }
+  .app-shell.app-shell :is(.workspace-heading > div > strong,.event-detail-head strong,.about-brand strong) { font-size:32px !important; line-height:44px; font-weight:500; }
+  .app-shell.app-shell :is(.stat-card > div > strong,.whitelist-summary p strong) { font-size:32px !important; line-height:44px; font-weight:500; color:#fff; }
+  .app-shell.app-shell .stat-card strong small { font-size:20px !important; line-height:28px; }
+  .app-shell :is(button,select,input:not([type=checkbox]):not([type=radio]):not([type=range]),.upload-setting-button) { min-height:48px; border-radius:8px; }
+  .app-shell button { min-width:48px; }
+  .app-shell :is(input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea) { padding-inline:16px; color:#fff; }
+  .app-shell :is(input[type=checkbox],input[type=radio]) { width:24px; height:24px; flex:0 0 24px; margin:0; accent-color:var(--hh-blue); }
+  .app-shell input[type=range] { min-height:48px; cursor:pointer; }
+  .app-shell :is(.whitelist-select-cell,.history-select-cell) { min-width:48px; min-height:48px; display:flex; align-items:center; justify-content:center; }
+  .app-shell .toggle { min-width:64px; width:64px; min-height:48px; height:48px; padding:8px; border-radius:24px; background:#475569; }
+  .app-shell .toggle.on { background:var(--hh-blue); }
+  .app-shell .toggle i { width:28px; height:28px; top:10px; left:8px; }
+  .app-shell .toggle.on i { left:28px; }
+  .app-shell :is(.map-controls button,.event-detail-head > button,.history-panel-close) { width:48px; height:48px; }
+  .app-shell :is(.map-controls button svg,.setting-icon svg,.settings-nav button svg) { width:24px; height:24px; }
+  .statusbar-reserved { padding-inline:16px; background:var(--hh-bg); }
+  .primary-nav { height:96px; min-height:96px; padding:0 16px 24px; background:var(--hh-panel); }
+  .primary-nav > button { padding:8px; }
+  .app-shell .primary-nav > button.active { color:#fff; border-color:var(--hh-blue); background:#3b82f62b; }
+  .content, .detection { height:calc(100dvh - 144px); }
+  .content:not(.detection) { padding:24px 16px; gap:24px; }
+  .app-shell :is(.target-panel,.stat-card,.settings-nav,.settings-workspace,.settings-sections > section,.settings-drilldown > section,.upgrade-grid > section,.whitelist-console,.whitelist-summary,.analytics-grid > article,.history-table,.history-side-panel,.history-detail-panel,.whitelist-modal,.event-detail-modal,.report-modal,.control-sidebar) { border-radius:12px; background:var(--hh-panel); border-color:var(--hh-line); }
+  .app-shell :is(.panel-title,.workspace-heading,.settings-sections h3,.settings-drilldown h3,.whitelist-toolbar,.whitelist-table-head,.table-head) { background:var(--hh-panel); border-color:var(--hh-line); }
+  .app-shell :is(.serial,.setting-item small,.target-meta,.about-grid span,.whitelist-toolbar > div span) { color:var(--hh-muted); }
+  .app-shell :is(.setting-item,.whitelist-table-row,.history-row,.target-card-actions) { border-color:var(--hh-line); }
+  .app-shell :is(.coordinate-choice-list button.active,.settings-nav > button.active,.control-options > button.selected) { background:#3b82f62b; border-color:var(--hh-blue); color:#fff; }
+  .app-shell .danger-button,.app-shell .row-actions button:last-child { color:#ef4444; }
+  .app-shell .online-state { color:#10b981; }
+
+  /* Map 656px, control 144px, and an independently scrolling alert panel. */
+  .detection-main .stats { top:24px; left:16px; right:16px; gap:8px; }
+  .detection-main .stats .stat-card { min-height:136px; padding:16px; gap:8px; }
+  .detection-main .map-card { height:656px; }
+  .detection > .control-sidebar { top:680px; left:16px; right:16px; height:144px; padding:16px; }
+  .app-shell .control-panel-title { margin:0 0 8px; padding:0; }
+  .control-options { gap:8px; }
+  .detection > .control-sidebar .control-options > button { min-height:64px; padding:8px; gap:8px; }
+  .detection-layout > .target-panel { top:848px; left:16px; right:16px; bottom:24px; }
+  .detection-layout > .target-panel .panel-title { flex-basis:72px; padding:16px; }
+  .target-panel .target-list { padding:16px; }
+  .target-card-main { padding:16px; gap:16px; }
+  .target-card-actions { min-height:56px; padding:0 8px; background:var(--hh-bg); }
+  .target-card-actions button { flex:1; padding:8px; gap:8px; }
+  .target-list article { background:var(--hh-panel); border-color:var(--hh-line); border-radius:8px; }
+  .target-list article.active { border-color:var(--hh-blue); }
+  .detection .map-controls { top:184px; right:16px; gap:8px; }
+  .detection .map-runtime-status { top:184px; right:80px; }
+  .detection .map-settings { top:184px; left:16px; right:80px; width:auto; padding:16px; max-height:448px; background:var(--hh-panel); }
+  .detection .map-scale { left:16px; bottom:16px; }
+  .app-shell .target-pin label { font-size:24px !important; line-height:32px; }
+  .target-pin > span { min-width:48px; min-height:48px; }
+  .target-inline-detail { padding:16px; }
+  .inline-detail-grid { gap:16px; }
+
+  .history-toolbar,.whitelist-toolbar,.analytics-toolbar { padding:16px; gap:16px; }
+  .history-toolbar .date-presets { gap:8px; }
+  .app-shell .search,.whitelist-toolbar > label { min-height:48px; height:auto; padding:0 16px; }
+  .app-shell .search input,.whitelist-toolbar > label input { padding-inline:0; }
+  .app-shell .history-row > span { font-size:24px !important; line-height:32px; }
+  .history-row,.table-head { column-gap:16px; padding:12px 16px; }
+  .app-shell .table-head > span { font-size:20px !important; line-height:28px; color:var(--hh-muted); }
+  .history-table .table-head,.history-table .history-row { min-width:1280px; }
+  .history-filter-panel { left:16px; right:16px; padding:16px; }
+  .analytics-kpis { gap:16px; }
+  .analytics-kpis .stat-card { padding:16px; }
+  .analytics-grid { gap:24px; }
+  .analytics-grid > article { padding:16px; }
+  .analytics-grid > .trend-panel { min-height:448px; }
+  .app-shell .trend-chart > div > span { font-size:20px !important; line-height:28px; }
+  .period-switch { gap:8px; }
+
+  .whitelist-page .whitelist-summary { flex-basis:80px; height:80px; min-height:80px; padding:16px; gap:24px; }
+  .whitelist-page .whitelist-summary > div,.whitelist-page .whitelist-summary p { gap:8px; }
+  .whitelist-page .whitelist-summary .summary-icon { width:32px; height:32px; flex-basis:32px; }
+  .whitelist-page .whitelist-summary p span { font-size:20px !important; line-height:28px; }
+  .whitelist-toolbar > div { min-width:0; }
+  .whitelist-page .whitelist-table-row { min-height:168px; padding:16px; grid-template-columns:48px minmax(0,1fr) minmax(0,1fr) auto; gap:16px 8px; border-bottom:1px solid var(--hh-line); }
+  .whitelist-page .whitelist-table-row > code { font-family:Roboto,"Noto Sans SC",sans-serif; font-size:24px !important; line-height:32px; }
+  .whitelist-page .whitelist-table-row > span:nth-child(4) { font-size:20px !important; line-height:28px; color:var(--hh-muted); }
+  .whitelist-page .whitelist-model { gap:8px; }
+  .whitelist-page .whitelist-model > i { display:none; }
+  .whitelist-page .whitelist-table-row .row-actions button { min-height:48px; padding:8px; }
+  .whitelist-page .whitelist-table-row > span:nth-child(6) { gap:8px; }
+  .whitelist-page .whitelist-table-row:nth-child(odd) { background:#273449; }
+  .whitelist-table-row > code::before,.whitelist-table-row > span:nth-child(4)::before { color:var(--hh-muted); }
+
+  .settings-console,.settings-sections,.about-sections,.upgrade-grid { gap:24px; }
+  .settings-nav { padding:16px; gap:8px; }
+  .settings-nav-head { padding:0 0 16px; }
+  .settings-nav > button { padding:16px 8px; min-height:80px; }
+  .app-shell .settings-nav > button strong { font-size:24px !important; line-height:32px; }
+  .workspace-heading { padding:16px; gap:16px; min-height:96px; }
+  .settings-scroll { padding:16px; }
+  .redesigned-settings > section + section { margin-top:0; }
+  .app-shell .settings-sections h3,.app-shell .settings-drilldown h3 { padding:16px; min-height:72px; }
+  .setting-item { padding:16px; min-height:88px; gap:16px; flex-wrap:wrap; }
+  .setting-item > .setting-item-icon { flex:0 0 40px; width:40px; height:40px; min-width:40px; }
+  .setting-item > .setting-item-copy { flex:1; min-width:160px; }
+  .setting-item > .setting-item-control { flex:0 0 auto; min-width:0; max-width:100%; }
+  .app-shell.app-shell .setting-item-copy > span { font-size:20px !important; line-height:28px; color:var(--hh-muted); }
+  .app-shell.app-shell .toggle { border-radius:24px; }
+  .app-shell.app-shell :is(.zone,.water) { font-size:16px !important; line-height:22px; }
+  .setting-item select { max-width:256px; }
+  .range-setting { gap:8px; }
+  .range-setting input { max-width:192px; }
+  .settings-accordion-panel { padding:16px; background:var(--hh-bg); }
+  .settings-accordion-panel .settings-drilldown { gap:24px; }
+  .coordinate-choice-list button { padding:16px; min-height:80px; }
+  .config-list-toolbar { padding:16px; }
+  .config-table > div { padding:16px; gap:16px; }
+  .upgrade-card-head { padding:16px; gap:16px; }
+  .app-shell .about-brand strong { white-space:normal; }
+  .about-brand { flex-wrap:wrap; gap:16px; padding:16px; }
+  .alarm-matrix-row,.alarm-matrix-head { padding:16px; gap:8px; }
+  .app-shell .alarm-matrix-head span { font-size:20px !important; line-height:28px; }
+  .event-detail-overlay { padding:24px 16px; }
+  .event-detail-head { min-height:88px; height:auto; padding:16px; gap:16px; }
+  .whitelist-form,.event-detail-grid,.modal-actions { padding:16px; gap:16px; }
+  .whitelist-form input { width:100%; }
+  .whitelist-form label { min-width:0; }
+  .modal-actions button { padding:8px 16px; }
+  .app-shell .target-pin,.app-shell .map-controls button { touch-action:manipulation; }
+}

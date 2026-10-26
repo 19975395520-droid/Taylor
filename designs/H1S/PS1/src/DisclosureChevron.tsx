@@ -1,0 +1,1 @@
+export default function DisclosureChevron({expanded=false}:{expanded?:boolean}){return <span className="ui-disclosure-chevron" data-expanded={expanded} aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>}

@@ -1,0 +1,16 @@
+html.preview-host, .preview-host body, .preview-host #root { width:100%; height:100%; min-width:0; min-height:0; margin:0; overflow:hidden; }
+.device-preview { height:100dvh; display:flex; flex-direction:column; background:#040c14; color:#dceaf2; font-family:Inter,"Microsoft YaHei",sans-serif; }
+.preview-toolbar { flex:none; min-height:84px; padding:12px 24px; display:flex; align-items:center; justify-content:space-between; gap:20px; background:#0b1b29; border-bottom:1px solid #244254; }
+.preview-title strong,.preview-title span,.preview-meta span,.preview-meta small { display:block; }
+.preview-title strong { font-size:17px; }
+.preview-title span,.preview-meta small { color:#7b9aaa; font-size:12px; margin-top:5px; }
+.preview-meta { text-align:right; font-size:14px; font-variant-numeric:tabular-nums; }
+.device-switch { display:flex; gap:6px; padding:4px; border:1px solid #2b495c; border-radius:10px; background:#06121e; }
+.device-switch button { min-width:150px; padding:8px 18px; border:1px solid transparent; border-radius:7px; background:transparent; color:#8da8b9; cursor:pointer; font-size:15px; }
+.device-switch button small { display:block; margin-top:3px; font-size:11px; }
+.device-switch button[aria-pressed="true"] { background:#133b50; color:#84edfa; border-color:#2a8da5; }
+.device-switch button:focus-visible { outline:2px solid #82e9fb; outline-offset:3px; }
+.preview-stage { flex:1; min-height:0; display:flex; align-items:center; justify-content:center; overflow:hidden; background:radial-gradient(ellipse at center,#112536,#040c14 75%); }
+.device-frame { position:relative; flex:none; box-shadow:0 0 0 1px #355063,0 20px 60px #0008; }
+.device-frame iframe { display:block; border:0; transform-origin:top left; background:#07111f; }
+@media(max-width:760px) { .preview-toolbar { flex-wrap:wrap; justify-content:center; padding:10px; gap:8px; } .preview-title { display:none; } .preview-meta { text-align:center; } .device-switch button { min-width:105px; } }

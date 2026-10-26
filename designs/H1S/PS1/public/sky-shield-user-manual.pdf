@@ -1,0 +1,160 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 11 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 388 >>
+stream
+BT
+/F1 22 Tf
+72 760 Td
+(SKY SHIELD CONTROL SYSTEM) Tj
+/F1 13 Tf
+0 -32 Td
+(User Manual) Tj
+0 -25 Td
+(Version 3.6) Tj
+0 -25 Td
+() Tj
+0 -25 Td
+(Contents) Tj
+0 -25 Td
+(01  Quick Start) Tj
+0 -25 Td
+(02  Real-time Detection) Tj
+0 -25 Td
+(03  History and Track Replay) Tj
+0 -25 Td
+(04  Countermeasure Operations) Tj
+0 -25 Td
+(05  System Settings) Tj
+0 -25 Td
+(06  Troubleshooting) Tj
+0 -25 Td
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 11 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 533 >>
+stream
+BT
+/F1 22 Tf
+72 760 Td
+(01  QUICK START) Tj
+/F1 13 Tf
+0 -32 Td
+() Tj
+0 -25 Td
+(1. Sign in with an authorized operator account.) Tj
+0 -25 Td
+(2. Confirm all detection modules are online.) Tj
+0 -25 Td
+(3. Open Real-time Detection from the navigation.) Tj
+0 -25 Td
+(4. Select a target to inspect flight information.) Tj
+0 -25 Td
+(5. Follow site procedures before starting countermeasures.) Tj
+0 -25 Td
+() Tj
+0 -25 Td
+(System indicators use cyan for normal, amber for warning,) Tj
+0 -25 Td
+(and red for high-risk targets.) Tj
+0 -25 Td
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 11 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 449 >>
+stream
+BT
+/F1 22 Tf
+72 760 Td
+(02  DETECTION AND HISTORY) Tj
+/F1 13 Tf
+0 -32 Td
+() Tj
+0 -25 Td
+(The detection map shows active targets and coverage range.) Tj
+0 -25 Td
+(Use the layer control to switch map providers.) Tj
+0 -25 Td
+() Tj
+0 -25 Td
+(History provides event search, filtering and track replay.) Tj
+0 -25 Td
+(Drone and pilot tracks can be displayed independently.) Tj
+0 -25 Td
+(Date and time filters apply to events and statistics.) Tj
+0 -25 Td
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 11 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 543 >>
+stream
+BT
+/F1 22 Tf
+72 760 Td
+(03  SYSTEM SETTINGS) Tj
+/F1 13 Tf
+0 -32 Td
+() Tj
+0 -25 Td
+(General: theme, language and startup preferences.) Tj
+0 -25 Td
+(Display: brightness, map markers and coordinate format.) Tj
+0 -25 Td
+(Network: wired, wireless and remote service settings.) Tj
+0 -25 Td
+(Alerts: risk notifications and quiet hours.) Tj
+0 -25 Td
+(Applications: maps, files and API protocols.) Tj
+0 -25 Td
+(About: version, firmware and factory reset.) Tj
+0 -25 Td
+() Tj
+0 -25 Td
+(Contact an authorized technician before maintenance.) Tj
+0 -25 Td
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000139 00000 n 
+0000000266 00000 n 
+0000000705 00000 n 
+0000000832 00000 n 
+0000001416 00000 n 
+0000001543 00000 n 
+0000002043 00000 n 
+0000002171 00000 n 
+0000002766 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+2837
+%%EOF

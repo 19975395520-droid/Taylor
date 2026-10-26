@@ -1,0 +1,131 @@
+@media (max-width:800px) {
+  /* Use a real track inside the touch target; never stretch the thumb. */
+  .app-shell.app-shell button.toggle {
+    position:relative; display:inline-block; flex:none; width:64px; min-width:64px;
+    height:48px; min-height:48px; padding:0; border:0; border-radius:24px;
+    background:transparent; box-shadow:none; vertical-align:middle;
+  }
+  .app-shell.app-shell button.toggle::before {
+    content:''; position:absolute; inset:8px 0; border-radius:20px; background:#526176;
+  }
+  .app-shell.app-shell button.toggle.on::before { background:#3b82f6; }
+  .app-shell.app-shell button.toggle i {
+    display:block; position:absolute; width:24px; height:24px; border-radius:50%;
+    top:12px; left:4px; margin:0; background:#fff; transform:none; transition:left .15s;
+  }
+  .app-shell.app-shell button.toggle.on i { left:36px; transform:none; }
+
+  /* A record is a small information card: identity, serial, then note/actions. */
+  .whitelist-page .whitelist-table { padding:16px; display:flex; flex-direction:column; gap:16px; background:#0f172a; }
+  .whitelist-page .whitelist-table-row {
+    min-height:200px; padding:16px; border:1px solid #475569; border-radius:12px;
+    grid-template-columns:48px minmax(0,1fr) auto;
+    grid-template-rows:auto auto auto; gap:8px 16px;
+    background:#1e293b;
+  }
+  .whitelist-page .whitelist-table-row:nth-child(odd) { background:#1e293b; }
+  .whitelist-page .whitelist-table-row > .whitelist-select-cell { grid-column:1; grid-row:1; }
+  .whitelist-page .whitelist-table-row > .whitelist-model { grid-column:2; grid-row:1; }
+  .whitelist-page .whitelist-table-row > span:nth-child(6) { grid-column:3; grid-row:1; gap:8px; }
+  .whitelist-page .whitelist-table-row > span:nth-child(6) em { display:none; }
+  .whitelist-page .whitelist-table-row > code {
+    grid-column:1 / -1; grid-row:2; padding:8px 0;
+    white-space:normal; overflow-wrap:anywhere; word-break:normal;
+    font-size:24px !important; line-height:32px; color:#fff;
+  }
+  .whitelist-page .whitelist-table-row > span:nth-child(4) {
+    grid-column:1 / 3; grid-row:3; white-space:normal; overflow-wrap:anywhere;
+    font-size:20px !important; line-height:28px;
+  }
+  .whitelist-page .whitelist-table-row > .row-actions { grid-column:3; grid-row:3; gap:8px; }
+  .whitelist-page .whitelist-table-row .row-actions button { padding:8px 16px; }
+  .whitelist-page .whitelist-toolbar > div { flex:1 0 100%; }
+  .whitelist-toolbar > button { flex:1; white-space:nowrap; }
+
+  /* Reflow the history table as records rather than a desktop-width strip. */
+  .history-table .table-head { display:none; }
+  .history-table { overflow-x:hidden; padding:16px; background:#0f172a; }
+  .history-table .history-row {
+    min-width:0; width:100%; margin-top:16px; padding:16px;
+    display:grid; grid-template-columns:48px minmax(0,1fr) minmax(0,1fr);
+    gap:16px; border:1px solid #475569; border-radius:12px; background:#1e293b;
+  }
+  .history-row > span:nth-child(1) { grid-column:1; grid-row:1; }
+  .history-row > span:nth-child(2) { grid-column:2; grid-row:1; }
+  .history-row > .history-target { grid-column:1 / -1; grid-row:2; min-width:0; }
+  .history-row .history-target > span { min-width:0; }
+  .app-shell.app-shell .history-target small { font-size:24px !important; line-height:32px; overflow-wrap:anywhere; white-space:normal; color:#94a3b8; }
+  .history-row > span:nth-child(4) { grid-column:1 / -1; grid-row:3; }
+  .history-row > span:nth-child(5) { grid-column:1 / 3; grid-row:4; }
+  .history-row > span:nth-child(6) { grid-column:3; grid-row:4; }
+  .history-row > span:nth-child(7) { grid-column:1 / 3; grid-row:5; }
+  .history-row > .event-actions { grid-column:2 / -1; grid-row:5; justify-self:end; }
+  .history-row > span:nth-child(4)::before { content:'发现时间  '; color:#94a3b8; font-size:20px; }
+  .history-row > span:nth-child(5)::before { content:'时长  '; color:#94a3b8; font-size:20px; }
+  .history-row > span:nth-child(6)::before { content:'出现  '; color:#94a3b8; font-size:20px; }
+  .history-row > span:nth-child(7)::before { content:'轨迹点  '; color:#94a3b8; font-size:20px; }
+  .history-content.panel-open { overflow:visible; }
+  .history-detail-panel .event-detail-grid { grid-template-columns:1fr 1fr; }
+  .history-detail-panel .event-detail-grid strong { overflow-wrap:anywhere; }
+
+  /* Keep labels on the left; wider controls move to their own aligned line. */
+  .setting-item { display:grid; grid-template-columns:40px minmax(0,1fr) auto; align-items:center; gap:16px; }
+  .setting-item > .setting-item-copy { min-width:0; }
+  .setting-item > .setting-item-control { min-width:0; }
+  .setting-item:has(.range-setting,.altitude-input,.server-fields) > .setting-item-control { grid-column:2 / -1; justify-self:stretch; }
+  .range-setting { width:100%; display:flex; gap:16px; }
+  .range-setting input { flex:1; min-width:0; max-width:none; }
+  .range-setting b { width:64px; flex:none; text-align:right; }
+  .setting-item-control select { max-width:224px; }
+  .setting-item-copy strong,.setting-item-copy span { overflow-wrap:anywhere; }
+  .settings-accordion-panel .setting-item { grid-template-columns:minmax(0,1fr) auto; }
+  .settings-accordion-panel .setting-item > .setting-item-icon { display:none; }
+  .settings-accordion-panel .setting-item:has(.range-setting,.altitude-input) > .setting-item-control { grid-column:1 / -1; }
+  .settings-accordion-panel .upgrade-card-head { display:grid; grid-template-columns:32px minmax(0,1fr); }
+  .settings-accordion-panel .upgrade-card-head > b { grid-column:2; }
+  .app-shell.app-shell .about-brand strong { font-size:28px !important; line-height:38px; }
+  .about-brand > span { min-width:0; flex:1 1 320px; }
+  .about-grid strong { overflow-wrap:anywhere; }
+  .app-shell .config-table > div { gap:8px; padding:16px 8px; }
+  .config-table span { min-width:0; }
+
+  .whitelist-modal,.event-detail-modal { border-radius:12px; }
+  .event-detail-head { gap:8px; }
+  .app-shell.app-shell .event-detail-head > div { min-width:0; }
+  .event-detail-grid > div { min-width:0; }
+  .event-detail-grid strong { overflow-wrap:anywhere; }
+  .local-import-content,.import-choice { padding:16px; }
+  .lan-address { flex-wrap:wrap; }
+  .app-shell.app-shell .lan-address strong { font-size:24px !important; overflow-wrap:anywhere; }
+  .modal-actions { display:flex; justify-content:flex-end; flex-wrap:wrap; }
+  .modal-actions button { min-width:112px; }
+
+  .target-card-info { min-width:0; }
+  .target-meta { display:flex; flex-wrap:wrap; gap:8px 16px; }
+  .app-shell.app-shell .target-meta .uom { font-size:16px !important; }
+  .detection .target-pin.selected label { max-width:240px; }
+  .detection .map-runtime-status { top:576px; right:16px; }
+  .inline-detail-grid { grid-template-columns:1fr 1fr; }
+  .inline-operator { flex-wrap:wrap; }
+  .analytics-grid .model-panel { min-height:560px; }
+  .analytics-toolbar { flex:0 0 auto; min-height:0; height:auto; }
+  .analytics-toolbar .period-switch { display:flex; width:100%; gap:8px; padding:8px; }
+  .analytics-toolbar .period-switch button { flex:1; padding:8px; }
+  .analytics-toolbar .report-export { margin:0; }
+  .analytics-panel-title { flex-wrap:wrap; gap:8px; padding-bottom:16px; }
+  .analytics-panel-title .rank-tabs { width:auto; height:auto; min-width:176px; display:flex; gap:8px; padding:4px; flex:none; }
+  .analytics-panel-title .rank-tabs button { min-width:80px; height:48px; padding:8px; }
+  .model-ranking > div > span { min-width:0; }
+  .model-ranking strong { white-space:normal; overflow-wrap:anywhere; }
+  .model-rank > div { gap:8px; }
+  .ai-summary p { white-space:normal; overflow-wrap:anywhere; }
+}
+/* With dashboard cards removed, map tools occupy the cleared top edge. */
+.detection .map-controls { top:24px; }
+.detection .map-runtime-status { top:24px; }
+.detection .map-settings { top:24px; }
+@media(max-width:800px) {
+ .detection .map-controls { top:24px; right:16px; }
+ .detection .map-runtime-status { top:24px; right:80px; }
+ .detection .map-settings { top:24px; }
+}
