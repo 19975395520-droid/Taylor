@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1802" height="1105" viewBox="0 0 1802 1105"><title>升级套餐 — 截图还原</title><defs><linearGradient id="plus" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f0f6ff"/></linearGradient><filter id="shadow" x="-10%" y="-5%" width="120%" height="115%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.055"/></filter></defs><rect width="1802" height="1105" fill="#f4f4f4"/>
+<text x="908" y="85" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#080808" text-anchor="middle">升级套餐</text>
+<rect x="732" y="115" width="352" height="44" rx="22" fill="#ebebeb" stroke="none"/>
+<rect x="736" y="119" width="170" height="36" rx="18" fill="white" stroke="none"/>
+<text x="821" y="142" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="middle">个人</text>
+<text x="995" y="142" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#929292" text-anchor="middle">Business</text>
+<g id="plan-0" aria-label="免费"><g filter="url(#shadow)">
+<rect x="104" y="183" width="384" height="736" rx="24" fill="#fdfdfd" stroke="#dfdfdf"/>
+</g>
+<text x="128" y="229" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#080808" text-anchor="start">免费</text>
+<text x="128" y="290" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#080808" text-anchor="start">试用 ChatGPT</text>
+<text x="128" y="329" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#757575" text-anchor="start">了解 AI 如何帮助你在生活和工作中找到答案、</text>
+<text x="128" y="355" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#757575" text-anchor="start">探索思路并完成任务。</text>
+<text x="128" y="404" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#080808" text-anchor="start">$</text>
+<text x="139" y="420" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="44" font-weight="400" fill="#080808" text-anchor="start">0</text>
+<text x="167" y="414" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#4c5666" text-anchor="start">/ 月</text>
+<rect x="128" y="449" width="336" height="44" rx="22" fill="none" stroke="#eeeeee"/>
+<text x="296" y="476" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#999999" text-anchor="middle">你的当前套餐</text>
+<text x="128" y="542" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">从基础起步：</text>
+<g transform="translate(134 568) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3Q-5 3 -5 10Q-5 13 -3 15L-4 19L1 17Q10 19 10 10Q10 3 3 3Z"/></g>
+<text x="162" y="582" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">日常文字聊天不限次数</text>
+<g transform="translate(134 608) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-3 6L6 4Q9 4 9 7L10 15Q10 18 7 18L-2 20Q-5 20 -5 17L-6 10Q-6 7 -3 6ZM-3 16L0 12L5 17M0 5L1 1L11 2Q13 2 13 5L12 12"/></g>
+<text x="162" y="622" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">图像生成功能使用受限</text>
+<g transform="translate(134 648) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3Q-2 -1 -4 4Q-8 6 -5 10Q-8 16 -3 17Q-1 23 3 18Q7 23 9 17Q14 15 10 10Q13 4 8 3Q6 -1 2 3ZM3 4V18"/></g>
+<text x="162" y="662" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">记忆容量和存储空间有限</text>
+<g transform="translate(134 688) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 8V15M-1 3V20M3 6V17M7 9V14"/></g>
+<text x="162" y="702" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">语音聊天额度有限</text>
+<g transform="translate(134 728) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 8L10 3V19L-5 14ZM-1 15L0 21L4 21L3 16"/></g>
+<text x="162" y="742" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">由广告支持</text>
+<text x="128" y="889" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#4a535e" text-anchor="start">已有套餐？查看账单帮助</text>
+</g>
+<g id="plan-1" aria-label="ChatGPT Go"><g filter="url(#shadow)">
+<rect x="512" y="183" width="384" height="736" rx="24" fill="#fdfdfd" stroke="#dfdfdf"/>
+</g>
+<text x="536" y="229" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#080808" text-anchor="start">ChatGPT Go</text>
+<text x="536" y="290" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#080808" text-anchor="start">更多使用权限</text>
+<text x="536" y="329" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#757575" text-anchor="start">享有更多核心智能使用额度，满足更多写作、学</text>
+<text x="536" y="355" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#757575" text-anchor="start">习、创作和聊天需求。</text>
+<text x="536" y="404" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#080808" text-anchor="start">$</text>
+<text x="547" y="420" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="44" font-weight="400" fill="#080808" text-anchor="start">11</text>
+<text x="599" y="414" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#4c5666" text-anchor="start">/ 月</text>
+<rect x="536" y="449" width="336" height="44" rx="22" fill="#0d0d0d" stroke="none"/>
+<text x="704" y="476" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#ffffff" text-anchor="middle">立即体验</text>
+<g transform="translate(542 528) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3Q-5 3 -5 10Q-5 13 -3 15L-4 19L1 17Q10 19 10 10Q10 3 3 3Z"/></g>
+<text x="570" y="542" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">使用工具时可发送更多消息</text>
+<g transform="translate(542 568) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-3 6L6 4Q9 4 9 7L10 15Q10 18 7 18L-2 20Q-5 20 -5 17L-6 10Q-6 7 -3 6ZM-3 16L0 12L5 17M0 5L1 1L11 2Q13 2 13 5L12 12"/></g>
+<text x="570" y="582" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">可生成更多图像</text>
+<g transform="translate(542 608) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3Q-2 -1 -4 4Q-8 6 -5 10Q-8 16 -3 17Q-1 23 3 18Q7 23 9 17Q14 15 10 10Q13 4 8 3Q6 -1 2 3ZM3 4V18"/></g>
+<text x="570" y="622" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">更大的记忆容量和存储空间</text>
+<g transform="translate(542 648) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 8V15M-1 3V20M3 6V17M7 9V14"/></g>
+<text x="570" y="662" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">更多语音聊天次数</text>
+<g transform="translate(542 688) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 8L10 3V19L-5 14ZM-1 15L0 21L4 21L3 16"/></g>
+<text x="570" y="702" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">由广告支持</text>
+<text x="536" y="889" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#4a535e" text-anchor="start">此套餐可能包含广告。了解更多</text>
+</g>
+<g id="plan-2" aria-label="ChatGPT Plus"><g filter="url(#shadow)">
+<rect x="920" y="183" width="384" height="736" rx="24" fill="url(#plus)" stroke="#a8b7ff"/>
+</g>
+<text x="944" y="229" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#080808" text-anchor="start">ChatGPT Plus</text>
+<rect x="1242" y="207" width="38" height="28" rx="14" fill="#f0f3ff" stroke="none"/>
+<text x="1261" y="225" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="400" fill="#3550ad" text-anchor="middle">推荐</text>
+<text x="944" y="290" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#080808" text-anchor="start">你的 AI 助手</text>
+<text x="944" y="329" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#757575" text-anchor="start">解锁高级智能，用得越多，就越贴合你的偏好。</text>
+<text x="944" y="404" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#080808" text-anchor="start">$</text>
+<text x="955" y="420" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="44" font-weight="400" fill="#080808" text-anchor="start">30</text>
+<text x="1007" y="414" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#4c5666" text-anchor="start">/ 月</text>
+<rect x="944" y="449" width="336" height="44" rx="22" fill="#6080f7" stroke="none"/>
+<text x="1112" y="476" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#ffffff" text-anchor="middle">✦ 立即体验</text>
+<g transform="translate(950 528) scale(.85)" fill="none" stroke="#6080ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 0L6 7L13 10L6 13L3 20L0 13L-7 10L0 7Z"/></g>
+<text x="978" y="542" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">高级智能，应对复杂工作</text>
+<g transform="translate(950 568) scale(.85)" fill="none" stroke="#6080ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-3 6L6 4Q9 4 9 7L10 15Q10 18 7 18L-2 20Q-5 20 -5 17L-6 10Q-6 7 -3 6ZM-3 16L0 12L5 17M0 5L1 1L11 2Q13 2 13 5L12 12"/></g>
+<text x="978" y="582" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">生成更高质量的图像</text>
+<g transform="translate(950 608) scale(.85)" fill="none" stroke="#6080ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 8H10Q12 8 12 11V19H-6V11Q-6 8 -5 8ZM-1 8V4H7V8M-6 13H12"/></g>
+<text x="978" y="622" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">可跨应用和文件执行操作的 Work 智能体</text>
+<g transform="translate(950 648) scale(.85)" fill="none" stroke="#6080ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-3 4L5 2L11 7L12 14L6 20L-2 18L-6 12ZM-1 8L2 11L-1 14M5 14H8"/></g>
+<text x="978" y="662" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">用 Codex 实现编程自动化</text>
+<g transform="translate(950 688) scale(.85)" fill="none" stroke="#6080ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3Q-2 -1 -4 4Q-8 6 -5 10Q-8 16 -3 17Q-1 23 3 18Q7 23 9 17Q14 15 10 10Q13 4 8 3Q6 -1 2 3ZM3 4V18"/></g>
+<text x="978" y="702" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">更大的记忆容量和 20 GB 存储空间</text>
+<g transform="translate(950 728) scale(.85)" fill="none" stroke="#6080ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-3 2A2 2 0 1 0 -3 6A2 2 0 1 0 -3 2M8 2A2 2 0 1 0 8 6A2 2 0 1 0 8 2M-3 15A2 2 0 1 0 -3 19A2 2 0 1 0 -3 15M-3 6V15M-3 11H4Q8 11 8 6"/></g>
+<text x="978" y="742" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">连接电子邮箱和日历</text>
+<g transform="translate(950 768) scale(.85)" fill="none" stroke="#6080ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 8H10Q12 8 12 11V19H-6V11Q-6 8 -5 8ZM-1 8V4H7V8M-6 13H12"/></g>
+<text x="978" y="782" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">更大的项目空间，助你有序管理工作</text>
+<g transform="translate(950 808) scale(.85)" fill="none" stroke="#6080ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1L10 5L12 13L7 20L-2 18L-6 10L-3 3ZM6 7Q0 3 0 8Q0 10 5 11Q9 15 1 15M3 4V17"/></g>
+<text x="978" y="822" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">用于个人财务管理和数据分析的工具</text>
+<g transform="translate(950 848) scale(.85)" fill="none" stroke="#6080ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-4 11L0 15L9 3"/></g>
+<text x="978" y="862" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">无广告</text>
+</g>
+<g id="plan-3" aria-label="ChatGPT Pro"><g filter="url(#shadow)">
+<rect x="1328" y="183" width="384" height="736" rx="24" fill="#fdfdfd" stroke="#dfdfdf"/>
+</g>
+<text x="1352" y="229" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#080808" text-anchor="start">ChatGPT Pro</text>
+<text x="1352" y="290" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#080808" text-anchor="start">极致性能</text>
+<text x="1352" y="329" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#757575" text-anchor="start">适合在整个工作日都依靠我们最强大智能支持的</text>
+<text x="1352" y="355" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#757575" text-anchor="start">用户。</text>
+<text x="1352" y="377" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#080808" text-anchor="start">起价</text>
+<text x="1352" y="404" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#080808" text-anchor="start">$</text>
+<text x="1363" y="420" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="44" font-weight="400" fill="#080808" text-anchor="start">138</text>
+<text x="1439" y="414" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#4c5666" text-anchor="start">/ 月</text>
+<rect x="1352" y="449" width="336" height="44" rx="22" fill="#0d0d0d" stroke="none"/>
+<text x="1520" y="476" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#ffffff" text-anchor="middle">立即体验</text>
+<g transform="translate(1358 528) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-4 11L8 2L12 10L0 15ZM4 6L7 12M-3 14L-5 19M1 15L0 20"/></g>
+<text x="1386" y="542" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">我们最强大的前沿 Pro 模型</text>
+<g transform="translate(1358 568) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2A8 8 0 1 0 3 18A8 8 0 1 0 3 2M3 6A4 4 0 1 0 3 14A4 4 0 1 0 3 6"/></g>
+<text x="1386" y="582" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">Dot，你的全天候智能体</text>
+<g transform="translate(1358 608) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-3 4L5 2L11 7L12 14L6 20L-2 18L-6 12ZM-1 8L2 11L-1 14M5 14H8"/></g>
+<text x="1386" y="622" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">更多工作模式和 Codex 使用额度</text>
+<g transform="translate(1358 648) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3Q-2 -1 -4 4Q-8 6 -5 10Q-8 16 -3 17Q-1 23 3 18Q7 23 9 17Q14 15 10 10Q13 4 8 3Q6 -1 2 3ZM3 4V18"/></g>
+<text x="1386" y="662" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">最高记忆容量和 100 GB 存储空间</text>
+<g transform="translate(1358 688) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 8Q-2 -1 7 4L11 7M11 1V7H5M11 14Q6 23 -2 18L-5 15M-5 21V15H1"/></g>
+<text x="1386" y="702" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">抢先体验新工具和模型</text>
+<g transform="translate(1358 728) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 5H12M-5 15H12M0 2A3 3 0 1 0 0 8A3 3 0 1 0 0 2M6 12A3 3 0 1 0 6 18A3 3 0 1 0 6 12"/></g>
+<text x="1386" y="742" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">3 档使用额度可选</text>
+<g transform="translate(1358 768) scale(.85)" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-4 11L0 15L9 3"/></g>
+<text x="1386" y="782" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#080808" text-anchor="start">无广告</text>
+<text x="1352" y="873" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#4a535e" text-anchor="start">使用量不限，但须遵守防滥用规则。</text>
+<text x="1352" y="889" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#4a535e" text-anchor="start">了解使用限制和优惠活动</text>
+</g>
+<text x="908" y="974" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" fill="#606060" text-anchor="middle">♟♟</text>
+<text x="906" y="1002" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#58616b" text-anchor="middle">你的企业需要更多功能吗？</text>
+<text x="906" y="1022" font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#58616b" text-anchor="middle">查看  ChatGPT Enterprise</text>
+</svg>
