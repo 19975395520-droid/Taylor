@@ -1,0 +1,25 @@
+.compass-calibration { position:fixed; inset:0; margin:auto; width:min(640px,calc(100vw - 32px)); max-height:calc(100dvh - 48px); padding:0; box-sizing:border-box; border:1px solid #355069; border-radius:20px; color:#ecf6ff; background:#102033; box-shadow:0 24px 90px #000a; overflow-y:auto; pointer-events:auto; }
+.compass-calibration::backdrop { background:#020817b8; backdrop-filter:blur(5px); }
+.compass-calibration header { display:flex; justify-content:space-between; align-items:center; padding:24px; border-bottom:1px solid #2b4055; }
+.compass-calibration header span { font-size:16px; color:#60c9ee; letter-spacing:3px; }
+.compass-calibration h2 { margin:4px 0 0; font-size:32px; line-height:44px; font-weight:500; }
+.compass-calibration button { min-width:48px; min-height:48px; padding:8px 16px; border:1px solid #3c576e; border-radius:8px; background:#1b354a; color:#dff6ff; font-size:20px; line-height:28px; cursor:pointer; }
+.compass-calibration header > button { background:transparent; border:0; font-size:32px; }
+.compass-body { padding:24px; text-align:center; }
+.compass-demo-badge { display:inline-block; padding:4px 12px; border:1px solid #32667c; border-radius:20px; color:#84ddf6; font-size:16px; line-height:24px; background:#163449; }
+.compass-animation { width:100%; margin:8px auto; }
+.compass-animation svg { width:100%; display:block; }
+.compass-moving-device { offset-path:path('M280 160 C80 -30 20 350 280 160 C540 -30 480 350 280 160'); offset-rotate:0deg; animation:compass-eight 7s linear infinite; }
+.compass-animation.paused .compass-moving-device { animation-play-state:paused; }
+@keyframes compass-eight { to { offset-distance:100%; } }
+.compass-body h3 { margin:0 0 8px; font-size:28px; line-height:38px; font-weight:500; }
+.compass-body p { margin:0; font-size:20px; line-height:28px; color:#a9bfd1; }
+.compass-body ol { list-style:none; display:flex; flex-direction:column; gap:16px; padding:24px 0; margin:0; text-align:left; }
+.compass-body li { display:flex; gap:16px; align-items:center; }
+.compass-body li b { display:grid; place-items:center; flex:0 0 32px; height:32px; background:#1d4965; border-radius:50%; color:#96e2ff; font-size:20px; }
+.compass-body li span { font-size:20px; line-height:28px; }
+.compass-body .compass-caption { font-size:16px; line-height:24px; color:#7f9aaf; }
+.compass-calibration footer { display:flex; justify-content:flex-end; gap:12px; padding:16px 24px; background:#102033; border-top:1px solid #2b4055; }
+.compass-calibration .compass-done { background:#2779bf; border-color:#3b9ceb; }
+@media(prefers-reduced-motion:reduce) { .compass-moving-device { animation:none; offset-distance:15%; } }
+@media(max-width:800px) { .compass-calibration header,.compass-body { padding:16px; } .compass-calibration footer { padding:16px; gap:8px; flex-wrap:wrap; } .app-shell.app-shell .compass-calibration h2 { font-size:32px !important; line-height:44px; } .app-shell.app-shell .compass-calibration h3 { font-size:28px !important; line-height:38px; } .app-shell.app-shell .compass-calibration li span { font-size:20px !important; line-height:28px; } .app-shell.app-shell .compass-calibration .compass-caption { font-size:16px !important; line-height:24px; } }

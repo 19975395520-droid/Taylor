@@ -1,0 +1,36 @@
+.settings-accordion + .settings-accordion { border-top:1px solid #1d3c4e; }
+.settings-accordion-panel { padding:16px 20px 20px; background:#061724; border-top:1px solid #21485d; }
+.settings-accordion-panel[hidden] { display:none; }
+.settings-accordion-panel .settings-drilldown { display:flex; flex-direction:column; gap:16px; padding:0; animation:none; }
+.settings-accordion-panel .settings-drilldown > section { margin:0; }
+.accordion-trigger svg { transform:rotate(90deg); transition:transform .18s; }
+.accordion-trigger[aria-expanded="true"] svg { transform:rotate(-90deg); }
+@media (max-width:800px) {
+  .settings-accordion-panel { padding:12px; }
+  .settings-accordion-panel .config-list-toolbar { flex-wrap:wrap; height:auto; gap:12px; }
+  .settings-accordion-panel .config-list-toolbar > div { display:flex; flex-wrap:wrap; gap:8px; }
+  .settings-accordion-panel .config-table > div { min-width:0; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) 50px; }
+  .settings-accordion-panel .config-table span { overflow-wrap:anywhere; }
+  .settings-accordion-panel .upgrade-card-head { flex-wrap:wrap; height:auto; min-height:90px; }
+}
+/* Keep shield settings in source order, one full-width group per row. */
+@media (min-width: 801px) {
+  .redesigned-settings-page .settings-sections.redesigned-settings,
+  .redesigned-settings-page .settings-drilldown,
+  .redesigned-settings-page .about-sections,
+  .redesigned-settings-page .upgrade-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 18px;
+  }
+
+  .redesigned-settings-page .redesigned-settings > section,
+  .redesigned-settings-page .settings-drilldown > section,
+  .redesigned-settings-page .about-sections > section,
+  .redesigned-settings-page .upgrade-grid > section {
+    width: 100%;
+    flex: none;
+    margin: 0;
+  }
+}

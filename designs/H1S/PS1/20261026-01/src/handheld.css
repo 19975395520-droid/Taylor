@@ -1,0 +1,89 @@
+/* The device viewport drives adaptation, including inside the preview iframe. */
+@media (max-width: 800px) {
+  body { min-width:0; overflow:hidden; }
+  .app-shell { width:100%; height:100dvh; min-height:0; }
+  .main-shell { width:100%; min-width:0; overflow:hidden; }
+  .statusbar-reserved { height:48px; min-height:48px; padding:0 20px; }
+  .primary-nav { left:0; right:0; height:88px; min-height:88px; padding:0 10px; gap:0; z-index:60; }
+  .primary-nav > button { min-width:0; flex:1; padding:0 6px; }
+  .primary-nav > button span { font-size:24px !important; }
+  .content, .detection { height:calc(100dvh - 136px); }
+  .content:not(.detection) { padding:20px; overflow-y:auto; overflow-x:hidden; }
+
+  /* Handheld: map above, controls across the middle, alerts below. */
+  .detection > .control-sidebar { top:680px; bottom:auto; left:20px; right:20px; width:auto; height:146px; padding:12px 16px; display:block; }
+  .detection > .control-sidebar .brand { display:none; }
+  .control-panel-title { margin:0 0 9px; padding:0; font-size:22px !important; }
+  .control-options { flex-direction:row; gap:10px; }
+  .detection > .control-sidebar .control-options > button { flex:1; min-width:0; min-height:66px; padding:0 12px; gap:10px; justify-content:center; }
+  .detection-main .stats { left:20px; right:20px; top:20px; gap:10px; grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .detection-main .stats .stat-card { min-width:0; min-height:130px; padding:14px 10px; gap:10px; }
+  .detection .stat-icon { display:none; }
+  .detection .stat-card strong { font-size:40px !important; }
+  .detection .stat-card p { font-size:16px !important; white-space:normal; }
+  .detection-main .map-card { bottom:auto; height:660px; }
+  .detection .radar-zone { max-width:450px; max-height:450px; }
+  .detection .target-pin label { max-width:255px; }
+  .detection .target-pin label small { white-space:normal; }
+  .detection .map-controls { top:170px; right:20px; }
+  .detection .map-runtime-status { top:170px; right:78px; }
+  .detection .map-scale { left:20px; bottom:16px; }
+  .detection .map-settings { top:165px; right:78px; width:560px; max-height:485px; overflow-y:auto; }
+  .detection-layout > .target-panel { top:846px; bottom:18px; left:20px; right:20px; width:auto; }
+  .detection-layout > .target-panel .panel-title { flex-basis:62px; }
+  .target-panel .panel-title strong { font-size:26px !important; }
+  .target-panel .target-list { padding:10px; }
+  .target-card-main { padding:12px; }
+  .target-card-actions { min-height:48px; }
+  .target-model strong { font-size:24px !important; }
+
+  /* Other pages use a vertical reading order and keep dense tables scrollable. */
+  .history-toolbar, .whitelist-toolbar, .analytics-toolbar { display:flex; flex-wrap:wrap; height:auto; gap:12px; padding:14px; }
+  .history-toolbar .search { width:100%; flex:1 0 100%; }
+  .history-toolbar .date-presets { flex:1 0 100%; display:flex; flex-wrap:wrap; gap:6px; }
+  .history-toolbar .date-presets button { flex:1 0 auto; }
+  .history-toolbar .batch-delete { margin-left:0; }
+  .history-content, .history-content.panel-open { display:flex; flex-direction:column; height:auto; min-height:0; overflow:visible; }
+  .history-table { overflow-x:auto; flex:none; }
+  .history-table .table-head, .history-table .history-row { min-width:1080px; }
+  .history-side-panel, .history-detail-panel { flex:none; min-height:750px; height:auto; margin-top:16px; }
+  .history-filter-panel { position:fixed; left:20px; right:20px; top:240px; width:auto; z-index:70; }
+  .analytics-kpis { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+  .analytics-kpis .stat-card { min-width:0; }
+  .analytics-grid { display:flex; flex-direction:column; height:auto; overflow:visible; }
+  .analytics-grid > article { flex:none; min-height:380px; }
+  .analytics-grid > .trend-panel { min-height:440px; }
+  .analytics-grid .trend-chart { height:280px; }
+  .analytics-grid .time-chart { min-height:230px; }
+  .period-switch { flex-wrap:wrap; }
+  .analytics-toolbar > .period-switch:first-child { display:flex; flex:1 0 100%; }
+  .analytics-toolbar .report-export { margin-left:0; }
+  .whitelist-summary { gap:12px; flex-wrap:wrap; }
+  .whitelist-toolbar > div { width:100%; }
+  .whitelist-toolbar { flex:none; min-height:0; }
+  .whitelist-toolbar > label { flex:1 0 100%; min-width:0; }
+  .whitelist-console { flex:none; overflow:visible; }
+  .whitelist-toolbar .search { width:100%; flex:1 0 100%; }
+  .whitelist-table { overflow-x:auto; flex:none; }
+  .whitelist-table-head, .whitelist-table-row { min-width:1060px; }
+  .settings-console { display:flex; flex-direction:column; height:auto; gap:16px; }
+  .settings-nav { width:100%; padding:12px; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+  .settings-nav-head { grid-column:1 / -1; padding:8px 10px 14px; }
+  .settings-nav > button { min-width:0; padding:12px 8px; min-height:76px; margin:0; }
+  .settings-nav > button > span, .settings-nav > button > svg, .settings-nav > button small { display:none; }
+  .settings-nav > button strong { font-size:20px !important; }
+  .settings-workspace { width:100%; min-height:800px; }
+  .workspace-heading { padding:16px; gap:10px; }
+  .workspace-heading > b { display:none; }
+  .settings-scroll { height:auto; max-height:none; overflow:visible; padding:16px; }
+  .setting-item { gap:12px; padding:14px 10px; }
+  .setting-item > div { min-width:0; }
+  .setting-item small { white-space:normal; }
+  .setting-item select { max-width:220px; min-width:0; }
+  .settings-sections, .hardware-grid, .about-grid, .upgrade-grid, .storage-page, .storage-overview, .about-sections { grid-template-columns:1fr; }
+  .coordinate-choice-list { grid-template-columns:1fr; }
+  .event-detail-overlay { padding:20px; z-index:100; }
+  .event-detail-modal, .whitelist-modal, .import-modal, .report-modal { width:100%; max-width:680px; max-height:calc(100dvh - 80px); overflow-y:auto; }
+  .event-detail-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .whitelist-form { grid-template-columns:1fr; }
+}

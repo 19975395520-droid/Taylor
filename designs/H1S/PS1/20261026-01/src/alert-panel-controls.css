@@ -1,0 +1,26 @@
+.target-panel .panel-title { position:relative; overflow:visible; z-index:22; display:flex; align-items:center; justify-content:space-between; padding:12px; gap:8px; }
+.target-panel .panel-title > div:first-child { display:flex; align-items:baseline; flex-wrap:wrap; gap:8px; min-width:0; }
+.app-shell.app-shell .target-panel .panel-title strong { font-size:20px !important; line-height:28px; font-weight:500; white-space:nowrap; }
+.app-shell.app-shell .target-panel .panel-title > div:first-child > span { font-size:16px !important; line-height:24px; margin:0; }
+.alert-panel-controls { position:relative; display:flex; flex:none; gap:4px; }
+.alert-panel-controls > button { display:grid; place-items:center; width:40px; height:40px; min-width:40px; padding:0; border:1px solid #34536a; border-radius:8px; background:#122c40; color:#a1c4d8; cursor:pointer; }
+.alert-panel-controls > .muted { color:#f7bf64; border-color:#8c6a36; background:#3b3020; }
+.alert-mute-menu { position:absolute; z-index:50; top:calc(100% + 12px); right:0; width:312px; padding:16px; border:1px solid #3a6078; border-radius:12px; background:#102337; color:#dce8f3; box-shadow:0 16px 40px #0009; }
+.app-shell.app-shell .alert-mute-menu h3 { margin:0; font-size:20px !important; line-height:28px; }
+.app-shell.app-shell .alert-mute-menu p,.app-shell.app-shell .alert-mute-menu small { margin:8px 0 16px; display:block; font-size:16px !important; line-height:24px; color:#94a3b8; }
+.alert-mute-menu > div { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
+.alert-mute-menu button { min-height:40px; padding:8px; border:1px solid #34536a; border-radius:8px; color:#dce8f3; background:#18384f; cursor:pointer; }
+.app-shell.app-shell .alert-mute-menu button { font-size:16px !important; line-height:24px; }
+.alert-mute-menu .unmute-action { width:100%; color:#80d7ef; }
+.detection-layout > .target-panel.alerts-collapsed { height:72px; bottom:auto; overflow:visible; }
+.target-panel.alerts-collapsed > .target-list { display:none; }
+.target-panel:has(.alert-mute-menu) { overflow:visible; }
+@media(max-width:800px) {
+ .app-shell.app-shell .target-panel .panel-title strong { font-size:24px !important; line-height:32px; }
+ .app-shell.app-shell .target-panel .panel-title > div:first-child > span { font-size:20px !important; line-height:28px; }
+ .alert-panel-controls > button { min-width:48px; width:48px; min-height:48px; height:48px; }
+ .alert-mute-menu { width:360px; max-width:calc(100vw - 64px); }
+ .alert-mute-menu button { min-height:48px; }
+ .app-shell.app-shell .alert-mute-menu button { font-size:20px !important; line-height:28px; }
+ .detection-layout > .target-panel.alerts-collapsed { height:80px; }
+}

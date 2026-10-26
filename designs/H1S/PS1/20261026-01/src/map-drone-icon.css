@@ -1,0 +1,12 @@
+.target-pin.map-source-探测 { --drone-source:#3569ef; --drone-tint:#142d60; }
+.target-pin.map-source-解析 { --drone-source:#dc5245; --drone-tint:#482824; }
+.target-pin.map-source-RTID,.target-pin.map-source-RID { --drone-source:#4ab967; --drone-tint:#153d2b; }
+.map .target-pin[class*="map-source-"] > span {
+ width:52px; height:52px; min-width:52px; flex:none; border-radius:14px;
+ color:var(--drone-source); background:linear-gradient(145deg,var(--drone-tint),#0b1928);
+ border:1.5px solid var(--drone-source); box-shadow:0 4px 14px #0007,inset 0 0 12px #ffffff06;
+}
+.map .target-pin[class*="map-source-"].selected > span { outline:2px solid #e2f1ff; outline-offset:4px; }
+.map .target-pin .map-drone-symbol { width:34px; height:34px; filter:drop-shadow(0 0 4px var(--drone-source)); }
+.map .target-pin label { border-color:var(--drone-source); }
+@media(max-width:800px) { .map .target-pin[class*="map-source-"] > span { width:56px; height:56px; } .map .target-pin .map-drone-symbol { width:36px; height:36px; } }

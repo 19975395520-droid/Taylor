@@ -1,0 +1,40 @@
+.detection .runtime-disclosure { display:block; height:auto; padding:0; min-width:230px; background:#102b27; border:1px solid #33574c; border-radius:8px; overflow:hidden; z-index:18; }
+.runtime-trigger { display:flex; align-items:center; justify-content:center; gap:8px; width:100%; min-height:44px; padding:8px 12px; border:0; background:transparent; color:#9ccbb3; cursor:pointer; }
+.runtime-trigger > i,.runtime-programs strong > i { width:6px; height:6px; flex:none; border-radius:50%; background:#69dca5; }
+.runtime-programs { padding:8px 12px; border-top:1px solid #33574c; }
+.runtime-programs > div { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:8px 0; }
+.runtime-programs strong { display:flex; align-items:center; gap:8px; color:#69dca5; font-weight:400; }
+.app-shell .alert-detail-inline a.alert-route { display:flex; align-items:center; justify-content:center; text-decoration:none; grid-column:5; grid-row:1; padding:4px; min-height:40px; border-radius:8px; background:#008cff; color:#fff; font-size:16px; line-height:24px; }
+.app-shell .alert-detail-inline .alert-metrics { padding:8px; }
+.app-shell .alert-detail-inline .alert-metrics dl { gap:8px; }
+.app-shell .alert-detail-inline .alert-metrics dd { margin-top:0; }
+.app-shell .alert-detail-inline .alert-metrics h3 { margin-bottom:4px; }
+.app-shell.app-shell .alert-detail-inline .alert-metrics dd.altitude-alert { color:#ff5d66 !important; }
+.app-shell.app-shell .alert-detail-inline .altitude-warning-icon { display:inline; margin-left:4px; color:#ff5d66 !important; font-size:16px !important; line-height:24px; }
+.app-shell .alert-detail-inline .alert-trust > div { flex-direction:row; align-items:center; flex-wrap:wrap; }
+.app-shell .alert-detail-inline .alert-trust button { min-height:40px; padding:8px 12px; font-size:16px; line-height:24px; }
+.app-shell .alert-detail-inline .alert-trust .add-trust { background:#173f4f; border-color:#2b7586; color:#8ae2ee; }
+.app-shell .alert-detail-inline .alert-trust .cancel-trust { background:transparent; border-color:#526171; color:#b8c8d6; }
+.app-shell .alert-detail-inline .trust-editor { color:#fff; }
+.app-shell .alert-detail-inline .trust-editor h2 { color:#fff; }
+@media(max-width:800px) {
+ .runtime-trigger { min-height:48px; }
+ .app-shell .alert-detail-inline a.alert-route { min-height:48px; font-size:20px; line-height:28px; }
+ .app-shell .alert-detail-inline .alert-metrics { padding:8px 16px; }
+ .app-shell .alert-detail-inline .alert-metrics dl { gap:8px 16px; }
+ .app-shell .alert-detail-inline .alert-trust button { min-height:48px; font-size:20px; line-height:28px; }
+}
+/* Refined runtime disclosure and larger map utility icons. */
+.detection .runtime-disclosure { border-color:#3b6559; border-radius:12px; background:linear-gradient(135deg,#173c33eb,#122a27ed); box-shadow:0 4px 16px #0003,inset 0 1px #b0ffdb0a; }
+.runtime-trigger { padding:8px 10px 8px 14px; gap:10px; min-height:48px; }
+.runtime-trigger > i { width:7px; height:7px; box-shadow:0 0 8px #69dca54d; }
+.runtime-chevron { flex:0 0 28px; width:28px; height:28px; display:grid; place-items:center; margin-left:4px; border:1px solid #52796966; border-radius:8px; color:#b7ddca; background:#b3ffcf0a; }
+.runtime-chevron svg { transition:transform .18s ease; }
+.runtime-chevron.expanded svg { transform:rotate(180deg); }
+.runtime-trigger:hover .runtime-chevron { background:#b3ffcf1a; border-color:#6fa88d; }
+.runtime-trigger:focus-visible { outline:2px solid #8bdab8; outline-offset:-3px; }
+.runtime-programs { padding:8px 14px; }
+.detection .map .map-controls { top:88px; gap:10px; }
+.detection .map .map-controls > button { width:48px; height:48px; min-width:48px; min-height:48px; border-radius:10px; display:grid; place-items:center; padding:0; border-color:#3b5c72; background:#102a3be8; }
+.detection .map .map-controls > button svg { width:28px; height:28px; }
+@media(max-width:800px) { .detection .map .map-controls { top:88px; } .detection .map .map-controls > button { width:56px; height:56px; min-width:56px; min-height:56px; } .detection .map .map-controls > button svg { width:30px; height:30px; } }

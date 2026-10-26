@@ -1,0 +1,16 @@
+.direction-button-area { position:absolute; z-index:19; inset:72px 460px 88px 240px; pointer-events:none; }
+.direction-floating-button { position:absolute; left:0; bottom:0; display:flex; align-items:center; gap:8px; min-width:104px; min-height:56px; padding:12px 16px; border:1px solid #4396bd; border-radius:12px; color:#adf1ff; background:#12354dea; box-shadow:0 6px 20px #0006; cursor:grab; touch-action:none; user-select:none; pointer-events:auto; }
+.direction-floating-button:active { cursor:grabbing; }
+.direction-placeholder-note { position:absolute; bottom:72px; left:0; max-width:320px; padding:12px 16px; border:1px solid #31576b; border-radius:8px; color:#cbd5e1; background:#0f2133; font-size:16px; line-height:24px; }
+@media(max-width:800px) { .direction-button-area { inset:88px 16px 88px; } .direction-floating-button { min-height:64px; } .direction-placeholder-note { max-width:400px; font-size:20px; line-height:28px; } }
+.map-compass-button { position:absolute; z-index:19; left:240px; top:24px; width:64px; height:80px; min-height:64px; padding:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0; border:1px solid #35546b; border-radius:12px; background:#0d2030e8; color:#dcecf5; box-shadow:0 4px 14px #0005; cursor:pointer; }
+.map-compass-button > svg { display:block; flex:none; }
+.app-shell.app-shell .map-compass-button > span { font-size:16px !important; line-height:22px; font-weight:500; }
+.map-compass-button:focus-visible { outline:2px solid #67dafa; outline-offset:3px; }
+@media(max-width:800px) { .map-compass-button { left:16px; top:24px; } }
+.map-compass-button.electronic-compass { width:176px; height:216px; padding:12px; gap:4px; background:linear-gradient(155deg,#123048ed,#081727ed); border-color:#406b86; border-radius:16px; }
+.app-shell.app-shell .electronic-compass .compass-card-label { display:flex; justify-content:space-between; align-items:center; width:100%; font-size:16px !important; line-height:24px; color:#a8c7da; }
+.app-shell.app-shell .electronic-compass .compass-card-label small { font-size:16px !important; color:#728fa4; }
+.app-shell.app-shell .electronic-compass .compass-digital-reading { font-size:20px !important; line-height:28px; color:#78d2ef; }
+.app-shell.app-shell .electronic-compass .compass-digital-reading b { font-size:24px !important; line-height:32px; font-weight:500; letter-spacing:2px; color:#e1f3ff; }
+@media(max-width:800px) { .map-compass-button.electronic-compass { width:176px; height:216px; } }

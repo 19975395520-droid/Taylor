@@ -1,0 +1,39 @@
+.network-dialog { position:fixed; inset:0; margin:auto; box-sizing:border-box; width:min(760px,calc(100vw - 32px)); max-height:calc(100dvh - 48px); padding:0; color:#fff; background:#1e293b; border:1px solid #475569; border-radius:12px; box-shadow:0 24px 90px #0009; overflow-y:auto; }
+.network-dialog::backdrop { background:#020617bb; backdrop-filter:blur(4px); }
+.network-dialog header { position:sticky; top:0; z-index:2; background:#1e293b; display:flex; align-items:center; justify-content:space-between; gap:16px; padding:24px; border-bottom:1px solid #475569; }
+.network-dialog h2 { margin:4px 0 0; font-size:32px; line-height:44px; font-weight:500; }
+.network-dialog header small { color:#94a3b8; font-size:16px; line-height:22px; }
+.network-dialog button { min-width:48px; min-height:48px; padding:8px 16px; font-size:24px; line-height:32px; border:1px solid #475569; border-radius:8px; color:#fff; background:#273449; cursor:pointer; }
+.network-dialog header > button { padding:0; background:transparent; border:0; }
+.network-form-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px 16px; padding:24px; }
+.network-dialog label { display:flex; flex-direction:column; gap:8px; font-size:20px; line-height:28px; color:#94a3b8; min-width:0; }
+.network-dialog :is(input:not([type=checkbox]):not([type=radio]),select) { box-sizing:border-box; width:100%; min-width:0; min-height:48px; padding:8px 16px; background:#0f172a; border:1px solid #475569; border-radius:8px; color:#fff; font:400 24px/32px inherit; font-size:24px; line-height:32px; }
+.network-full { grid-column:1 / -1; }
+.network-dialog label.network-check { flex-direction:row; align-items:center; min-height:48px; gap:16px; color:#fff; cursor:pointer; }
+.network-dialog :is(input[type=checkbox],input[type=radio]) { width:24px; height:24px; margin:0; flex:none; accent-color:#3b82f6; }
+.network-dialog footer { position:sticky; bottom:0; display:flex; justify-content:flex-end; gap:16px; padding:16px 24px; background:#1e293b; border-top:1px solid #475569; }
+.network-dialog footer button { min-width:112px; }
+.network-dialog footer button[type=submit] { background:#3b82f6; border-color:#3b82f6; }
+.network-dialog button:disabled { opacity:.4; cursor:default; }
+.network-dialog :is(input,select,button):focus-visible { outline:2px solid #60a5fa; outline-offset:2px; }
+.dns-options { display:flex; flex-direction:column; gap:8px; margin:0; padding:24px; border:0; }
+.dns-options legend { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+.network-dialog .dns-options label { flex-direction:row; align-items:center; gap:16px; min-height:64px; color:#fff; font-size:24px; cursor:pointer; }
+.dns-host { margin:0 24px; }
+.network-hint,.network-error { margin:16px 24px 24px; font-size:20px; line-height:28px; color:#94a3b8; }
+.network-error { color:#f87171; }
+.network-dialog input:disabled { opacity:.4; }
+.network-feedback { padding:0 16px; color:#94a3b8; font-size:16px; line-height:24px; }
+.network-feedback:empty { display:none; }
+@media(max-width:800px) {
+  .network-form-grid { grid-template-columns:1fr; padding:24px 16px; }
+  .network-dialog header { padding:16px; }
+  .network-dialog h2 { font-size:32px; line-height:44px; }
+  .network-dialog footer { padding:16px; }
+  .dns-options { padding:16px; }
+  .dns-host { margin-inline:16px; }
+  .network-hint,.network-error { margin-inline:16px; }
+  .app-shell.app-shell .network-dialog :is(.network-form-grid > label,.dns-host) { font-size:20px !important; line-height:28px; }
+  .app-shell.app-shell .network-dialog h2 { font-size:32px !important; line-height:44px; }
+  .app-shell.app-shell .network-dialog .dns-options label { font-size:24px !important; line-height:32px; }
+}
