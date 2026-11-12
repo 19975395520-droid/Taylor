@@ -279,10 +279,11 @@ html[data-theme=light] .developer-scanner textarea{background:hsla(222,20%,96%,1
 .app-shell .history-page .history-toolbar>.history-filter-wrap>button{width:56px!important;height:52px!important}
 .app-shell .history-page .history-toolbar>:is(.batch-delete,.export){position:static!important;height:52px!important;min-height:52px!important;margin:0!important;flex:1!important;justify-content:center!important;font-size:20px!important}
 /* 手持端历史筛选：时间、搜索和条件筛选同排，操作按钮保留在下一行。 */
-.app-shell .history-page .history-toolbar>.handheld-history-period{flex:0 0 132px!important;width:132px!important}
-.app-shell .history-page .history-toolbar>.search{flex:1 1 0!important;width:auto!important;min-width:0!important}
-.app-shell .history-page .history-toolbar>.history-filter-wrap{flex:0 0 56px!important;width:56px!important}
-.app-shell .history-page .history-toolbar>:is(.batch-delete,.export){flex:1 0 calc(50% - 6px)!important}
+.app-shell .history-page .history-toolbar>.handheld-history-period{order:1;flex:0 0 132px!important;width:132px!important}
+.app-shell .history-page .history-toolbar>.search{order:2;flex:1 1 0!important;width:auto!important;min-width:0!important}
+.app-shell .history-page .history-toolbar>.history-filter-wrap{order:3;flex:0 0 56px!important;width:56px!important}
+.app-shell .history-page .history-toolbar>.batch-delete{order:4;flex:0 0 180px!important;margin-left:auto!important}
+.app-shell .history-page .history-toolbar>.export{order:5;flex:0 0 194px!important}
 .app-shell .history-page .history-content{flex:none!important;display:block!important;overflow:visible!important}
 .app-shell .history-page .history-table{overflow:visible!important;padding:0!important;min-width:0!important;width:100%!important}
 .app-shell .history-table-summary{position:static!important;flex-wrap:wrap!important;gap:8px!important;height:auto!important;min-height:56px!important;padding:8px 0!important}
