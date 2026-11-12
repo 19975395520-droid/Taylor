@@ -547,6 +547,15 @@ html[data-theme=light] .app-shell .history-counter-records{border-color:#c7d6e1}
 .app-shell .history-page .history-row>:is(.history-duration,.history-point-cell){display:none!important}
 .app-shell .history-page .history-row>.history-counter-cell{grid-column:1/-1!important;grid-row:2!important}
 .app-shell .history-page .history-row>.event-actions{grid-column:3/5!important;grid-row:3!important;justify-self:end!important;width:296px!important;border-top:0!important;padding-top:0!important}
+.app-shell .history-related .history-row{display:grid!important;grid-template-columns:36px 92px minmax(0,1fr) 210px!important;grid-template-rows:minmax(92px,auto) auto auto!important;gap:16px 12px!important;padding:20px!important}
+.app-shell .history-related .history-row>.history-select-cell{grid-column:1!important;grid-row:1!important;align-self:center!important}
+.app-shell .history-related .history-row>.history-source-cell{grid-column:2!important;grid-row:1!important}
+.app-shell .history-related .history-row>.history-target{grid-column:3!important;grid-row:1!important}
+.app-shell .history-related .history-row>.history-count-cell{display:block!important;grid-column:4!important;grid-row:1!important;align-self:start!important;justify-self:end!important}
+.app-shell .history-related .history-row>.history-discovered{display:block!important;grid-column:4!important;grid-row:1!important;align-self:end!important;justify-self:end!important;white-space:nowrap!important}
+.app-shell .history-related .history-row>:is(.history-duration,.history-point-cell){display:none!important}
+.app-shell .history-related .history-row>.history-counter-cell{grid-column:1/-1!important;grid-row:2!important}
+.app-shell .history-related .history-row>.event-actions{grid-column:3/5!important;grid-row:3!important;justify-self:end!important;width:296px!important;border-top:0!important;padding-top:0!important}
 }
 /* Boolean filters share the existing filter group pattern. */
 .app-shell .history-filter-panel{max-height:calc(100dvh - 240px);overflow-y:auto;scrollbar-width:thin}
